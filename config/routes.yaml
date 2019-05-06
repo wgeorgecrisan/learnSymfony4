@@ -1,3 +1,7 @@
 index:
     path: /
     controller: App\Controller\BaseController::baseindex
+
+secretpage:
+    path: /secretpage/
+    controller: App\Controller\SecretController::secretAction
